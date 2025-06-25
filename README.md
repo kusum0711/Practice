@@ -77,7 +77,6 @@ You got it to work! Nice, now the basic functionality is back for the zookeepers
 Add your solution below, either as an inline text or link to new documentation file(s) you've created.
 
 // Your solution
-[Location](README.md)
 
 # Cologne Zoo Dashboard
 
@@ -144,7 +143,7 @@ Switched to Math.ceil() so any partial age (like 0.4) gets rounded up instead of
 
 Wrapped it with Math.max(1, ...) to make sure the minimum age is always at least 1, even for newborns.
 
-- [Location](utils/useCalculateAgeInYears.ts)
+- Location : "utils/useCalculateAgeInYears.ts"
 
 ### Task 5: UI Fixing and Improvement
 
@@ -177,7 +176,7 @@ The zookeepers want to be able to see all details of an animal. Please create su
 In the animal table, we can now click on an animal’s name. When we do, a popup (called a modal) opens up, showing all the details we have about that animal.
 
 - For this I have created file.
-  [Location](components/Animaldetail.vue)
+  Location: "components/AnimalDetail.vue"
 
 - This includes: Name, Species, Gender, Age, Height, weight, Favourite fruit, required food.
 
@@ -199,7 +198,7 @@ To calculate the food an animal needs in kilograms in 1 day, the zookeepers use 
 
 // Your solution
 
-I have created [Calculation file](utils/foodCalculation.ts) here to perform the task and made necessary changes here in [View](components/TheAnimalTable.vue).
+I have created Calculation file [ Location: "utils/foodCalculation.ts" ] here to perform the task and made necessary changes here in "components/TheAnimalTable.vue".
 
 ### Task 8: Plan New Feature
 
